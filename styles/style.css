@@ -1,0 +1,197 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul, li, a, button {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.ctBlock {
+  display: block;
+  overflow: hidden;
+  max-width: 1440px;
+  min-width: 1280px;
+}
+
+.ctBlock.-center {
+  margin: auto;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.ctGrid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.ctFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jaldi", sans-serif;
+  color: #231f20;
+}
+
+h1, h2 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 4.2rem;
+}
+
+.button, a, li {
+  font-family: "Jaldi", sans-serif;
+  color: #231f20;
+}
+
+p {
+  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 226px;
+  height: 56px;
+  padding: 25px;
+  font-size: 1.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button:hover {
+  color: #00618c;
+  background: -webkit-gradient(linear, right top, left top, from(#1b1464), to(#652d90));
+  background: linear-gradient(to left, #1b1464, #652d90);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  padding: 22px 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 120px;
+  height: 36px;
+}
+
+header .logo-box img {
+  width: 36px;
+  height: 36px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .logo-box h1 {
+  margin-left: 5px;
+  color: #00618c;
+}
+
+header .menu input {
+  display: none;
+}
+
+header .menu label {
+  display: none;
+}
+
+header .menu .-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  min-width: 433px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  padding: 0px;
+  background-color: unset;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .menu .-items li {
+  margin-top: 0px;
+  margin-left: 48px;
+  font-family: "Jaldi", sans-serif;
+  font-size: 1.5rem;
+}
+
+header .menu .-items li a {
+  color: #231f20;
+}
+
+header .menu .-items li a:hover {
+  color: #29abe2;
+  font-weight: 500;
+}
+
+header .menu .-items li a:active {
+  color: #231f20;
+  font-weight: 400;
+  opacity: 0.56;
+}
+
+#main {
+  height: 500px;
+  background: linear-gradient(65deg, #eceefa, #f3f8fe);
+}
+/*# sourceMappingURL=style.css.map */

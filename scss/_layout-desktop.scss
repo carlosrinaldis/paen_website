@@ -1,0 +1,154 @@
+// Layout //
+.ctBlock {
+    display: block;
+    overflow: hidden;
+    max-width: 1440px;
+    min-width: $minDesktop;
+
+    &.-center {
+        margin: auto;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.ctGrid {
+    display: grid;
+}
+
+.ctFlex {
+    display: flex;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+// Text //
+
+h1, h2, h3, h4 ,h5, h6 {
+    font-family: $fontTitle;
+    color: $mainTextColor;
+}
+
+h1, h2 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 4.2rem;
+}
+
+.button, a, li{
+    font-family: $fontTitle;
+    color: $mainTextColor;
+}
+
+p {
+    font-size: 1.4rem;
+    font-size: 1.6rem;
+    font-family: $fontCopy; 
+}
+
+.button {
+    display: flex;
+    width: 226px; 
+    height: 56px;
+    padding: 25px; 
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        color: $altTextColor;
+        background: $gradBtColor; 
+    }
+}
+
+// Sections //
+
+header {
+    display: flex;
+    height: 80px; 
+    padding: 22px 100px;
+    justify-content: space-between; 
+
+    .logo-box {
+        display: flex;
+        width: 120px; 
+        height: 36px;
+        
+        img{
+            width: 36px;
+            height: 36px;
+            object-fit: cover;
+        }
+
+        h1{
+            margin-left: 5px;
+            color: $altTextColor;
+        }
+    }
+
+    // Menu Hamburguesa Responsivo //
+    
+    .menu {
+
+        input {
+            display: none;
+        }
+
+        label {
+            display: none; 
+        }
+
+        .-items {
+            display: flex; 
+            position: relative; 
+            min-width: 433px; 
+            height: 36px; 
+            top: 0; 
+            left: 0; 
+            padding: 0px; 
+            background-color: unset; 
+            align-items: center; 
+            justify-content: space-between; 
+
+            li {
+                margin-top: 0px; 
+                margin-left: 48px;
+                font-family: $fontTitle;
+                font-size: 1.5rem;  
+        
+                a {
+                    color: $mainTextColor; 
+                    
+                    &:hover {
+                        color: $hoverTextColor;
+                        font-weight: 500;
+                    }
+
+                    &:active {
+                        color: $mainTextColor;
+                        font-weight: 400;
+                        opacity: 0.56;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#main {
+        height: 500px;
+        background: $gradMainBkColor;
+    }

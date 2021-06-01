@@ -1,0 +1,16 @@
+@import 'reset';
+
+@import 'variables';
+
+@import 'layout-desktop';
+
+// El sccs de layout de miniMobile va dentro de este mediaquerry
+// @import 'layout-desktop';
+
+// @media (min-width: $minTablet) and (max-width: $minDesktop) {
+//     @import 'layout-tablet';
+// }
+
+// @media (min-width: $minDesktop) {
+//     @import 'layout-desktop';
+// }
